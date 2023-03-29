@@ -7,11 +7,26 @@ PubContext _context = new PubContext();
 //this assumes you are working with the populated
 //database created in privious module
 
-QueryFilters();
+//QueryFilters();
 //FindIt();
 //AddSomeMoreAuthors();
 //SkipAndTakeAuthors();
 //SortAuthors();
+QueryAggregate();
+
+void QueryAggregate()
+{
+    //var author = _context.Authors.OrderByDescending(a => a.FirstName)
+    //    .FirstOrDefault(a => a.LastName == "Lerman");
+
+    //Throws an exception in runtime.
+    //Last methods require query to have an OrderBy() method
+    //otherwise will throw an exception.
+    //the compiler can't warn you, because query translation happens at runtime.
+    //var auth = _context.Authors.LastOrDefault(a => a.LastName == "Lerman"); //Error
+    var auth = _context.Authors.OrderBy(a=> a.FirstName)
+        .LastOrDefault(a => a.LastName == "Lerman");
+}
 
 void SortAuthors()
 {
