@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherData\\PublisherData.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherData\\PublisherData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherData\\PublisherData.csproj",
+        "projectName": "PublisherData",
+        "projectPath": "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherData\\PublisherData.csproj",
+        "packagesPath": "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Antonio_Dembo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherDomain\\PublisherDomain.csproj": {
+                "projectPath": "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherDomain\\PublisherDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherDomain\\PublisherDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherDomain\\PublisherDomain.csproj",
+        "projectName": "PublisherDomain",
+        "projectPath": "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherDomain\\PublisherDomain.csproj",
+        "packagesPath": "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Antonio_Dembo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

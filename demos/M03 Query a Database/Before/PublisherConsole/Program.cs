@@ -3,14 +3,14 @@ using Microsoft.EntityFrameworkCore;
 using PublisherData;
 using PublisherDomain;
 
-GetAuthors();
+PubContext _context = new PubContext();
+//this assumes you are working with the populated
+//database created in privious module
 
-void GetAuthors()
+QueryFilters();
+
+void QueryFilters()
 {
-    using var context = new PubContext();
-    var authors = context.Authors.ToList();
-    foreach (var author in authors)
-    {
-        Console.WriteLine(author.FirstName + " " + author.LastName);
-    }
+    string name = "Josie";
+    var authors = _context.Authors.Where( s => s.FirstName == name).ToList();
 }
