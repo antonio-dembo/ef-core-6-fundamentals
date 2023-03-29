@@ -12,7 +12,45 @@ PubContext _context = new PubContext();
 //AddSomeMoreAuthors();
 //SkipAndTakeAuthors();
 //SortAuthors();
-QueryAggregate();
+//QueryAggregate();
+//RetrieveAndUpdateAuthor();
+//RetrieveAndUpdateMultipleAuthor();
+VariousOperations();
+
+void VariousOperations()
+{
+    var author = _context.Authors.Find(2); // this is currently Josie Newf
+    author.LastName = "Newfoundland";
+
+    var newauthor = new Author { LastName = "Appleman", FirstName = "Dan" };
+    _context.Authors.Add(newauthor);
+    _context.SaveChanges();
+}
+
+void RetrieveAndUpdateMultipleAuthor()
+{
+    var lermanAuthors = _context.Authors.Where(a => a.LastName == "Lehrman").ToList();
+    foreach (var la in lermanAuthors)
+    {
+        la.LastName = "Lerman";
+    }
+
+    Console.WriteLine("Before: " + _context.ChangeTracker.DebugView.ShortView);
+    _context.ChangeTracker.DetectChanges();
+    Console.WriteLine("After:" + _context.ChangeTracker.DebugView.ShortView);
+
+    _context.SaveChanges(); // calls DetectChanges() again as this is what it does.
+}
+
+void RetrieveAndUpdateAuthor()
+{
+    var author = _context.Authors.FirstOrDefault(a => a.FirstName == "Julie" && a.LastName == "Lerman");
+    if(author != null)
+    {
+        author.LastName = "Lehrman";
+    }
+    _context.SaveChanges(); // This method calls DetectChanges() internally.
+}
 
 void QueryAggregate()
 {
