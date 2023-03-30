@@ -16,7 +16,18 @@ PubContext _context = new PubContext();
 //RetrieveAndUpdateAuthor();
 //RetrieveAndUpdateMultipleAuthor();
 //VariousOperations();
-CoordinatedRetrieveAndUpdateAuthor();
+//CoordinatedRetrieveAndUpdateAuthor();
+DeleteAuthor();
+
+void DeleteAuthor()
+{
+    var authorJL = _context.Authors.Find(1);
+    if( authorJL != null)
+    {
+        _context.Authors.Remove(authorJL);
+        _context.SaveChanges();
+    }
+}
 
 void CoordinatedRetrieveAndUpdateAuthor()
 {
