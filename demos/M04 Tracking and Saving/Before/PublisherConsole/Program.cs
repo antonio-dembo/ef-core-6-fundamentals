@@ -7,7 +7,31 @@ PubContext _context = new PubContext();
 //this assumes you are working with the populated
 //database created in previous module
 
-InsertAuthor();
+//InsertAuthor();
+CoordinatedRetrieveAndUpdateAuthor();
+
+void CoordinatedRetrieveAndUpdateAuthor()
+{
+    var author = FindThatAuthor(3);
+    if(author?.FirstName == "Julie")
+    {
+        author.FirstName = "Julia";
+        SaveThatChanges(author);
+    }
+}
+
+Author FindThatAuthor(int authorId)
+{
+    using var shortLivedContext = new PubContext();
+    return shortLivedContext.Authors.Find(authorId);
+}
+
+void SaveThatChanges(Author author)
+{
+    using var anotherShortLivedContext = new PubContext();
+    anotherShortLivedContext.Authors.Update(author);
+    anotherShortLivedContext.SaveChanges();
+}
 
 void InsertAuthor()
 {
