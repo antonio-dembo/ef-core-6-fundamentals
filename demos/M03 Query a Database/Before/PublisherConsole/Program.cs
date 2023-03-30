@@ -14,12 +14,51 @@ PubContext _context = new PubContext();
 //SortAuthors();
 //QueryAggregate();
 //RetrieveAndUpdateAuthor();
+//DeleteAnAuthor();
 //RetrieveAndUpdateMultipleAuthor();
 //VariousOperations();
 //CoordinatedRetrieveAndUpdateAuthor();
-DeleteAuthor();
+//InsertMultipleAuthors();
+BulkAddUpdate();
 
-void DeleteAuthor()
+void InsertMultipleAuthors()
+{
+    var newAuthors = new List<Author>
+    {
+        new Author { FirstName = "Ruth", LastName = "OZeki" },
+        new Author { FirstName = "Sofia", LastName = "Segovia" },
+        new Author { FirstName = "Ursula K.", LastName = "Howey" },
+        new Author { FirstName = "Hugh", LastName = "Haunts" },
+        new Author { FirstName = "Isabelle", LastName = "Allende" },
+    };
+    _context.Authors.AddRange(newAuthors);    
+    _context.SaveChanges();
+
+}
+
+void BulkAddUpdate()
+{
+    var newAuthors = new List<Author>
+    {
+        new Author { FirstName = "Tsitsi", LastName = "Dangarembga" },
+        new Author { FirstName = "Lisa", LastName = "See" },
+        new Author { FirstName = "Zhang", LastName = "Ling" },
+        new Author { FirstName = "Marilynne", LastName = "Robinson" },
+    };
+    _context.Authors.AddRange(newAuthors);
+    var book = _context.Books.Find(2);
+    book.Title = "Programming Entity Framework 2nd Edition";
+    _context.SaveChanges();
+
+}
+
+void InsertMultipleAuthorsPassedIn(List<Author> authors)
+{
+    _context.Authors.AddRange(authors);    
+    _context.SaveChanges();
+}
+
+void DeleteAnAuthor()
 {
     var authorJL = _context.Authors.Find(1);
     if( authorJL != null)
