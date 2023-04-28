@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8jAZwwuytqEZHd32ToEpuxDCzIs1M2Hg46KmYSa1mBG5tbxs8NXSam5YovkbvNHW2IiBishInGiNH9FvcVHvkg==",
+  "dgSpecHash": "z0OKuSJE4cnEiNX+SF3+6CADAstw0NEmI3644dBCkiuY7/ztpSomTXjxaa0f9LbBQlGV7xS6XoIP6LD0kQqGXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherConsole\\PublisherConsole.csproj",
   "expectedPackageFiles": [

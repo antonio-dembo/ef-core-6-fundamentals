@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "NLYdIrdhEzsFRNIXQ46lTL7vNBv8Ku+UhqE9PNp5PMTYCFtTz/9GpJfx/5Ci2IyYRLOdo4/IVnlI4WIoN6ejnw==",
+  "dgSpecHash": "lnSfIVo6p41RVZEmCDa4aznTubCOtmrDq55wuVabCzHyxNAlSLwkRJuECU9MBtYBbSameFAYUr/bTJQfMjYYeA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Antonio_Dembo\\source\\ef-core-6-fundamentals\\ef-core-6-fundamentals\\demos\\M03 Query a Database\\Before\\PublisherData\\PublisherData.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
+    "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.1\\microsoft.entityframeworkcore.design.6.0.1.nupkg.sha512",
     "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.1\\microsoft.entityframeworkcore.relational.6.0.1.nupkg.sha512",
     "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.1\\microsoft.entityframeworkcore.sqlserver.6.0.1.nupkg.sha512",
     "C:\\Users\\Antonio_Dembo\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
