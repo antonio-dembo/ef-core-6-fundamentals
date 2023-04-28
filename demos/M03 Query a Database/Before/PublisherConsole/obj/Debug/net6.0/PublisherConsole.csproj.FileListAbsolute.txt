@@ -3,9 +3,11 @@ C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demo
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\PublisherConsole.runtimeconfig.json
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\PublisherConsole.dll
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\PublisherConsole.pdb
+C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -58,5 +60,3 @@ C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demo
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\obj\Debug\net6.0\PublisherConsole.pdb
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\obj\Debug\net6.0\PublisherConsole.genruntimeconfig.cache
 C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\obj\Debug\net6.0\ref\PublisherConsole.dll
-C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Humanizer.dll
-C:\Users\Antonio_Dembo\source\ef-core-6-fundamentals\ef-core-6-fundamentals\demos\M03 Query a Database\Before\PublisherConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

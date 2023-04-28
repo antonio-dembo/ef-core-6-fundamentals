@@ -38,6 +38,11 @@ namespace PublisherData
             };
             modelBuilder.Entity<Book>().HasData(someBooks);
 
+            //modelBuilder.Entity<Author>()
+            //    .HasMany(a => a.Books)
+            //    .WithOne(b => b.Author)
+            //    .HasForeignKey(b => b.AuthorFK);
+
             //example of more advenced mapping to specify
             //a one-to-many between author and book when
             //there are no navigation propperties
